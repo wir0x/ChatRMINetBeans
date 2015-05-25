@@ -4,7 +4,11 @@ package Main.clazz;/*
  * and open the template in the editor.
  */
 
-import enumerator.TypeMessageEnum;
+import Main.enumator.TypeMessageEnum;
+import static Main.enumator.TypeMessageEnum.LOGIN;
+import static Main.enumator.TypeMessageEnum.LOGOUT;
+import static Main.enumator.TypeMessageEnum.PRIVATE;
+import static Main.enumator.TypeMessageEnum.PUBLIC;
 
 import java.io.Serializable;
 
@@ -12,10 +16,6 @@ import java.io.Serializable;
  * @author Nelson Henrique
  */
 public class Message implements Serializable {
-    private static final int MSG_PUBLIC = 1;
-    private static final int MSG_PRIVATE = 2;
-    private static final int MSG_LOGIN = 3;
-    private static final int MSG_LOGOUT = 4;
 
     private String sender, receiver, textMessage;
     private TypeMessageEnum typeMessageEnum;

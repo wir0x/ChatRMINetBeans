@@ -1,9 +1,8 @@
 package Main.clazz;
 
+import Main.enumator.TypeMessageEnum;
 import Main.interfaces.ChatInterface;
-import enumerator.TypeMessageEnum;
-import interfaces.ClientInterface;
-
+import Main.interfaces.ClientInterface;
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
 import java.util.ArrayList;

@@ -2,7 +2,7 @@ package Main.clazz;
 
 import Main.interfaces.ChatController;
 import Main.interfaces.ChatInterface;
-import interfaces.ClientInterface;
+import Main.interfaces.ClientInterface;
 
 import java.io.Serializable;
 import java.rmi.RemoteException;
